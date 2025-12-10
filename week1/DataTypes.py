@@ -10,5 +10,5 @@ planet=("Sun","Moon","Earth","Saturn")      #This is a tuple, A tuple can be rec
 print(list,type(list),sep=",")
 cars={"BMW",'PORSCHE','AUDI','MCLAREN'}     #This is a set, A tuple can be recognised by {}
 print(cars,type(cars),sep=",")
-fruits=["GRAPES",'MANGO','RASPBERRY','PINEAPPLE']       #This is a tuple, A tuple can be recognised by []
+fruits=["GRAPES",'MANGO','RASPBERRY','PINEAPPLE']       #This is a list, A tuple can be recognised by []
 print(fruits,type(fruits),sep=",")
