@@ -1,3 +1,5 @@
+#24331A05D8
+#Implemetation of datatypes
 char=input("Enter a string: ")
 print(char,type(char),sep=",")
 num=int(input("Enter a number: "))
