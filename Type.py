@@ -1,3 +1,5 @@
+#24331A05D8
+#cONVERSIONS oF dATATYPES
 num=int(input("Enter a number:"))
 print(num,type(num),sep=",")
 num=str(num)                                     #conversion of int datatype to string datatype
