@@ -7,6 +7,6 @@ R=int(input())
 print("How much time do you have to repay the loan?(Enter the values in years)")
 T=int(input())
 I=(P*(1+R/100)**T)-P
-print("Your total intrest to be paid: ",round(I,2))
+print("Your total intrest to be paid: ",round(I,2
 
 
