@@ -1,3 +1,5 @@
+#24331A05D8
+#Multiplication Table
 n=int(input("Enter a number: "))
 print(n,"'s table:")
 for i in range(1,13):
