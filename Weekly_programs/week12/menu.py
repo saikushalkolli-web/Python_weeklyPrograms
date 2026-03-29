@@ -1,0 +1,22 @@
+#24331a05d8
+import tkinter as ui
+def show(choice):
+    output1.config(text=f"You selected:{choice}")
+window=ui.Tk()
+window.title("Menu and Menubuttons")
+window.geometry("700x300")
+menu1=ui.Menu(window)
+f1=ui.Menu(menu1,tearoff=1)
+f1.add_command(label="New",command=lambda: show("New"))
+f1.add_command(label="Exit",command=window.quit)
+menu1.add_cascade(label="File",menu=f1)
+window.config(menu=menu1)
+mbtn=ui.Menubutton(window,text="Options")
+menu=ui.Menu(mbtn,tearoff=1)
+menu.add_command(label="Option1",command=lambda: show("Hii"))
+menu.add_command(label="Option2",command=lambda: show("Byeee!!"))
+mbtn.config(menu=menu)
+mbtn.pack(pady=10)
+output1=ui.Label(window,text="Your choice will appear here...")
+output1.pack(pady=20)
+window.mainloop()
